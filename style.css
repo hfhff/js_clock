@@ -1,0 +1,25 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #FF512F;
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  
+    background: linear-gradient(to right, #DD2476, #FF512F); 
+
+}
+
+#clock_dtl {
+    position:relative;
+    color:white;
+    font-size: 35px;
+    bottom: 200px;
+    font-family: 'Lobster', cursive;
+}
+
